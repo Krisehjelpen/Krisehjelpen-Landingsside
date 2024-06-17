@@ -1,0 +1,458 @@
+:root{
+   --shadow1: #aa80ff;
+
+}
+
+*{
+   box-sizing: border-box;
+   max-width: 100%;
+   overflow: hidden;
+}
+
+html{
+   height: 100vh;
+   box-sizing: border-box;
+   margin: 5px;
+
+
+}
+header{
+   border-radius: 1px;
+   background-color: rgb(255, 255, 255);
+   border-bottom-color: rgb(216, 216, 216);
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   box-sizing: border-box;
+   display: block;
+   font-size: 16px;
+   font-weight: 400;
+   position: absolute;
+   top: 0%;
+   unicode-bidi: isolate;
+   width: 97%;
+   z-index: 999;
+}
+
+/*
+ul{
+   height: 76px;
+   line-height: 20px;
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   box-sizing: border-box;
+   color: rgb(39, 39, 39);
+   width: auto;
+
+}
+
+
+u{
+   margin-left: 20px;
+}
+
+
+li{
+   border: 1px solid black;
+   box-sizing: border-box;
+   height: 70px;
+   display: block;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 50px;
+   list-style-image: none;
+   list-style-position: outside;
+   list-style-type: none;
+   margin-bottom: 0px;
+   margin-left: 20px;
+   margin-right: 58px;
+   margin-top: 0px;
+   max-width: auto;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 0px;
+   text-align: center;
+   unicode-bidi: isolate;
+   width: auto;
+   font-family: basis-grotesque-pro, sans-serif;
+
+}
+
+li:first-child{
+   position: absolute;
+   left: 5px;
+   top: 30px;
+}
+
+
+a{
+   text-decoration: none;
+   color: rgb(39, 39, 39);
+}
+
+a:hover{
+   color: rgb(0, 187, 255);
+}
+
+.logo{
+   z-index: 9999;
+}
+
+*/
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   background-color: rgb(255, 255, 255);
+}
+
+.logo a {
+   text-decoration: none;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.nav-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.nav-links li {
+   margin-left: 20px;
+}
+
+.nav-links a {
+   text-decoration: none;
+   color: rgb(39, 39, 39);
+   font-size: 18px;
+}
+
+.nav-links a:hover {
+   color: rgb(78, 36, 134);
+   text-decoration: solid;
+   font-size: larger;
+   font-weight: 500;
+}
+
+body{
+   background-attachment: scroll;
+   background-clip: border-box;
+   background-color: rgb(255, 255, 255);
+   background-image:none;
+   background-origin: padding-box;
+   background-position-x: 0%;
+   background-position-y: 0%;
+   background-repeat: repeat;
+   background-size: auto;
+   box-sizing: border-box;
+   color: rgb(39, 39, 39);
+   display: block;
+   font-family: basis-grotesque-pro, sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   height: 100%;
+   line-height: 1.25;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+   overflow: auto;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 76px;
+   scroll-behavior: smooth;
+   width: 100%;
+}
+
+main{
+   box-sizing: border-box;
+   color: rgb(39, 39, 39);
+   display: block;
+   align-items: center;
+   font-family: basis-grotesque-pro, sans-serif;
+   font-size:16px;
+   font-weight: 400;
+   line-height: 20px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+   min-height: calc(100% - 72px);
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 16px;
+   unicode-bidi: isolate;
+   width: 100%;
+}
+.container{
+   box-sizing: border-box;
+   align-items: center;
+   color: rgb(39, 39, 39);
+   display: block;
+   font-family: basis-grotesque-pro, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   height: auto;
+   line-height: 20px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+   padding-bottom: 0px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 0px;
+   unicode-bidi: isolate;
+   width: 100%;
+}
+
+.første-seksjon{
+   justify-content: space-evenly;
+   align-self: left;
+   box-sizing: border-box;
+   color: rgb(39, 39, 39);
+   display: flex;
+   flex-direction: row;
+   font-family: basis-grotesque-pro, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   height: 500px;
+   line-height: 20px;
+   margin-bottom: 80px;
+   margin-left: 0%;
+   margin-right: 0%;
+   margin-top: 24px;
+   max-width: 1240px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 0px;
+   unicode-bidi: isolate;
+   width: 100%;
+}
+.steg1{
+   border: 1px dashed black;
+   position: sticky;
+   left: 10px;
+   height: 55px;
+   width: 100px;
+   text-align: center;
+   line-height: 50px;
+   border-radius:90px;
+   box-shadow: 10px 10px rgb(220, 220, 220);
+   background-color: rgb(255, 255, 255);
+   font-size: large;
+   
+}
+.første-seksjon-tekst{
+   top: 400px;
+   font-family: 'Courier New', monospace, sans-serif;
+   font-size: x-large;
+}
+.svg-steg1{
+   position: relative;
+   padding: 0px;
+   margin: 0px;
+}
+
+.h1-første-seksjon{
+   font-family: font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 400px) {
+   .svg-steg1{
+      width: 50%;
+      height: 90%;
+      align-self: right;
+   }
+   .første-seksjon-tekst{
+      width: 50%;
+      height: fit-content;
+      font-size: larger;
+   }
+}
+
+
+
+.andre-seksjon{
+   justify-content: space-evenly;
+   align-self: right;
+   box-sizing: border-box;
+   color: rgb(39, 39, 39);
+   display: flex;
+   flex-direction: row;
+   font-family: basis-grotesque-pro, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   height: 520px;
+   line-height: 20px;
+   margin-bottom: 80px;
+   margin-left: 0%;
+   margin-right: 0%;
+   margin-top: 24px;
+   max-width: 1240px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 0px;
+   unicode-bidi: isolate;
+   width: 100%;
+}
+.steg2{
+   border: 1px dashed black;
+   position: sticky;
+   left: 540px;
+   height: 55px;
+   width: 100px;
+   text-align: center;
+   line-height: 50px;
+   border-radius:90px;
+   box-shadow: -10px 10px rgb(220, 220, 220);
+   background-color: rgb(255, 255, 255);
+   font-size: large;
+   
+}
+.andre-seksjon-tekst{
+   top: 400px;
+   font-family: 'Courier New', monospace, sans-serif;
+   font-size: x-large;
+}
+.svg-steg2{
+   position: relative;
+   padding: 0px;
+   margin: 0px;
+}
+
+
+.h1-andre-seksjon{
+   font-family: font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 400px) {
+   
+
+   .svg-steg2{
+      width: 50%;
+      height: 90%;
+      align-self: left;
+   }
+   .andre-seksjon-tekst{
+      width: 50%;
+      height: fit-content;
+      font-size: larger;
+   }
+}
+
+
+
+
+.tredje-seksjon{
+   justify-content: space-evenly;
+   align-self: left;
+   box-sizing: border-box;
+   color: rgb(39, 39, 39);
+   display: flex;
+   flex-direction: row;
+   font-family: basis-grotesque-pro, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   height: 510px;
+   line-height: 20px;
+   margin-bottom: 80px;
+   margin-left: 0%;
+   margin-right: 0%;
+   margin-top: 24px;
+   max-width: 1240px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 0px;
+   unicode-bidi: isolate;
+   width: 100%;
+}
+.steg3{
+   border: 1px dashed black;
+   position: sticky;
+   left: 10px;
+   height: 50px;
+   width: 80px;
+   text-align: center;
+   line-height: 50px;
+   border-radius:90px;
+   box-shadow: 10px 10px rgb(220, 220, 220);
+   background-color: rgb(255, 255, 255);
+   font-size: large;
+   
+}
+.tredje-seksjon-tekst{
+   top: 400px;
+   font-family: 'Courier New', monospace, sans-serif;
+   font-size: x-large;
+}
+.svg-steg3{
+   position: relative;
+   padding: 0px;
+   margin: 0px;
+}
+
+.h1-tredje-seksjon{
+   font-family: font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 400px) {
+   .svg-steg3{
+      width: 50%;
+      height: 90%;
+      align-self: right;
+   }
+   .tredje-seksjon-tekst{
+      width: 50%;
+      height: fit-content;
+      font-size: larger;
+   }
+}
+
+
+.div-footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 350px;
+   background-color: rgb(189, 110, 134);
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: center;
+   font-size: smaller;
+}
+
+.div-footer-info{
+   text-align: left;
+   
+}
+.div-footer-samarbeid{
+   display: block;
+   justify-content: space-around;
+
+}
+.div-footer-kundeservice{
+   text-align: center;
+
+}
+.footerkontakt a{
+   text-decoration: none;
+   color: rgb(39, 39, 39);
+}
+
+.p-footer{
+   text-align: center;
+}
+
